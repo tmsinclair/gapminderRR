@@ -31,3 +31,5 @@ usethis::use_mit_license("Tom Sinclair")
 usethis::use_readme_md("Tom Sinclair")
 
 #use resolve #1 to close the issue
+
+#then put git push origin master in the terminal to update github
