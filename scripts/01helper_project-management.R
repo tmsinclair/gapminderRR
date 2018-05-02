@@ -20,9 +20,14 @@ pacman::p_load(pkgs, character.only = T)
 #usethis::use_package("dplyr")
 
 #when building tick 
-#make sure to tick build and reload
 #does git work?
 
 usethis::use_github()
 
+#create a MIT license
 usethis::use_mit_license("Tom Sinclair")
+
+#create a readme
+usethis::use_readme_md("Tom Sinclair")
+
+#use resolve #1 to close the issue
