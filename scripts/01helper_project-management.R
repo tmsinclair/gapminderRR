@@ -21,3 +21,4 @@ pacman::p_load(pkgs, character.only = T)
 
 #when building tick 
 #make sure to tick build and reload
+#does git work?

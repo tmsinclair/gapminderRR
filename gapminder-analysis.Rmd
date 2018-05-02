@@ -10,14 +10,15 @@ output:
     highlights: haddock
 ---
 
-#Analusis and explanation of the gapminder dataset
+<img src="https://www.gapminder.org/wp-content/themes/gapminder/images/logo.png" width="780px" />
+
+#Analysis and explanation of the gapminder dataset
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
 ## Background
-<img src="https://www.gapminder.org/wp-content/themes/gapminder/images/logo.png" width="780px" />
 
 >Gapminder is an independent Swedish foundation with **no political, religious or economic affiliations**. Gapminder is a fact tank, not a think tank. Gapminder fights devastating misconceptions about global development. Gapminder produces free teaching resources making the world understandable based on **reliable statistics**. Gapminder promotes a fact-based worldview everyone can understand.  Gapminder collaborates with universities, UN, public agencies and non-governmental organizations. - [Gapminder](https://www.gapminder.org/about-gapminder/) (2018)
 
@@ -33,4 +34,3 @@ install.packages("gapminder")
 #get the gapminder dataset
 gapminder::gapminder
 ```
-

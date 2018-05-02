@@ -1,3 +1,5 @@
+usethis::use_git()
+
 #install gapminder
 install.packages("gapminder")
 #get the gapminder sataset
