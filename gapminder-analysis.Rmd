@@ -1,0 +1,36 @@
+---
+title: "gapminder-analysis"
+author: "TM Sinclair"
+date: "2 May 2018"
+output:
+   html_document:
+    toc: true
+    toc_float: true
+    theme: yeti
+    highlights: haddock
+---
+
+#Analusis and explanation of the gapminder dataset
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Background
+<img src="https://www.gapminder.org/wp-content/themes/gapminder/images/logo.png" width="780px" />
+
+>Gapminder is an independent Swedish foundation with **no political, religious or economic affiliations**. Gapminder is a fact tank, not a think tank. Gapminder fights devastating misconceptions about global development. Gapminder produces free teaching resources making the world understandable based on **reliable statistics**. Gapminder promotes a fact-based worldview everyone can understand.  Gapminder collaborates with universities, UN, public agencies and non-governmental organizations. - [Gapminder](https://www.gapminder.org/about-gapminder/) (2018)
+
+>The gapminder project is a **non-profit** venture registered in Stockholm, Sweden, that promotes sustainable global development and achievement of the United Nations Millennium Development Goals by increased use and understanding of statistics and other information about social, economic and environmental development at local, national and global levels. - [Wikipedia](https://en.wikipedia.org/wiki/Gapminder_Foundation) (2018)
+
+##Installation
+
+Gapminder is available as an R package, and can be installed using the following code:
+
+```{gapminder-no-eval, eval = FALSE}
+#install gapminder
+install.packages("gapminder")
+#get the gapminder dataset
+gapminder::gapminder
+```
+
