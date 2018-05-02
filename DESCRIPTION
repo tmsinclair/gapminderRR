@@ -6,7 +6,7 @@ Description: Analysing gapminder data to teach reproducible research in R. In
     devtools and rrtools, literate programming using rmarkdown and version control through 
     git and github.
 Authors@R: person("Tom", "Sinclair", email = "tmsinclair2@sheffield.ac.uk", role = c("aut", "cre"))
-License: What license is it under?
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 ByteCompile: true

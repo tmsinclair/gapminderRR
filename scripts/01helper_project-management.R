@@ -22,3 +22,7 @@ pacman::p_load(pkgs, character.only = T)
 #when building tick 
 #make sure to tick build and reload
 #does git work?
+
+usethis::use_github()
+
+usethis::use_mit_license("Tom Sinclair")
